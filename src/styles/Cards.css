@@ -1,0 +1,12 @@
+.spacing {
+	/* display: inline-flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-height: 100vh; */
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 4fr));
+	max-height: 88vh;
+
+	gap: 50px;
+	overflow: auto;
+}

@@ -1,0 +1,55 @@
+.cards-container {
+	display: flex;
+	margin: 5em;
+	padding: 30px;
+	width: 230px;
+	height: auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	backdrop-filter: blur(20px) brightness(1.2);
+	/* transform: rotate3d(10, 10, 10); */
+	transition: 1s ease-in-out;
+
+	border-radius: 30px;
+	background: transparent;
+	box-shadow: 15px 15px 15px #000000, -15px -15px 15px #000000;
+}
+
+.close {
+	position: absolute;
+	top: 3%;
+	right: 10%;
+}
+.close button {
+	color: white;
+	background-color: transparent;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.cards-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 15px;
+	transition: 1s ease-in-out;
+}
+
+.cards-content h2 {
+	text-align: center;
+	width: 100%;
+	text-decoration: underline;
+	padding: 10px;
+}
+.cards-content p {
+	font-size: 18px;
+	text-align: left;
+	padding: 5px;
+}
+
+.cards-container img {
+	border: 0.5px white;
+	border-style: dotted;
+}

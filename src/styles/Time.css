@@ -1,0 +1,23 @@
+.local-clock h1 {
+	font-size: 30px;
+	color: white;
+}
+
+.time {
+	display: flex;
+	border: 1px solid black;
+	width: fit-content;
+	height: auto;
+	backdrop-filter: blur(2px);
+	padding: 15px;
+	color: white;
+}
+
+@media screen and (max-width: 875px) {
+	.local-clock h1 {
+		font-size: 12px;
+	}
+	.time {
+		font-size: 7px;
+	}
+}
